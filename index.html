@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sua Oração Personalizada</title>
+      <meta name="description" content="Gere orações católicas únicas para qualquer motivo. Encontre as palavras certas para sua súplica.">
+      <meta property="og:title" content="Oração Salva - Sua Oração Personalizada">
+      <meta property="og:description" content="Gere orações católicas exclusivas para saúde, emprego, ou família.">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://oracaosalva.me">
+      <style>
+         body {
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 20px;
+         margin: 0; /* Remove margem padrão do body */
+         min-height: 100vh; /* Garante que o body ocupa a altura total da tela */
+         /* Estilo para a imagem de fundo */
+         background-image: url('fundo_igreja.png'); /* Nome do arquivo da imagem */
+         background-size: cover; /* Cobre todo o fundo, mantendo proporção */
+         background-position: center; /* Centraliza a imagem */
+         background-attachment: fixed; /* Fixa a imagem ao rolar */
+         background-repeat: no-repeat; /* Evita repetição da imagem */
+         }
+         .container {
+         background-color: rgba(237, 224, 200, 0.85); /* Fundo beje semi-transparente */
+         padding: 30px;
+         border-radius: 10px;
+         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra mais destacada */
+         max-width: 600px;
+         width: 100%;
+         box-sizing: border-box; /* Inclui padding e borda no width */
+         margin-top: 50px; /* Margem superior para centralizar melhor */
+         margin-bottom: 50px; /* Margem inferior */
+         backdrop-filter: blur(5px); /* Efeito de desfoque no que está atrás da caixa */
+         -webkit-backdrop-filter: blur(5px); /* Para compatibilidade com navegadores baseados em WebKit */
+         }
+         h1 {
+         color: #333;
+         text-align: center;
+         margin-top: 0;
+         }
+         textarea {
+         width: 100%;
+         padding: 10px;
+         margin-bottom: 20px;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         resize: vertical;
+         min-height: 100px;
+         box-sizing: border-box;
+         }
+         button {
+         background-color: #4CAF50;
+         color: white;
+         padding: 10px 15px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         font-size: 16px;
+         transition: background-color 0.3s;
+         width: 100%; /* Botão ocupa a largura total */
+         }
+         button:hover {
+         background-color: #45a049;
+         }
+         #resultado {
+         margin-top: 30px;
+         padding: 15px;
+         border-left: 5px solid #007bff;
+         background-color: rgba(233, 247, 255, 0.7); /* Fundo da oração semi-transparente */
+         text-align: left; /* Alinha o texto da oração à esquerda */
+         border-radius: 5px;
+         }
+         .loading {
+         color: #007bff;
+         font-weight: bold;
+         text-align: center;
+         }
+         /* Responsividade básica */
+         @media (max-width: 768px) {
+         .container {
+         margin-top: 20px;
+         margin-bottom: 20px;
+         padding: 20px;
+         }
+         }
+         #developer-footer {
+         width: 100%;
+         max-width: 600px;
+         text-align: center;
+         margin-top: 30px;
+         padding: 15px 0;
+         color: #FFFFFF; 
+         font-size: 0.9em;
+         }
+         .developer-info strong {
+         color: #FFFFFF;
+         }
+         .social-links {
+         margin: 10px 0;
+         }
+         .instagram-link {
+         text-decoration: none;
+         color: #FFFFFF; 
+         font-size: 1.1em;
+         transition: color 0.3s;
+         }
+         .instagram-link:hover {
+         color: #00BFFF;
+         text-decoration: underline;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <h1>Sua Oração Católica</h1>
+         <p>Diga o motivo da sua súplica (ex: "Saúde para minha família" ou "Força para o novo emprego").</p>
+         <textarea id="motivoInput" placeholder="Digite seu motivo de oração aqui..."></textarea>
+         <button id="gerarBotao">Receber a minha Oração</button>
+         <div id="resultado">
+            <p>A sua oração aparecerá aqui.</p>
+         </div>
+      </div>
+      <script src="script.js"></script>
+      <footer id="developer-footer">
+         <p class="developer-info">
+            Desenvolvido por: <strong>Rodrigo</strong>
+         </p>
+         <div class="social-links">
+            <a href="https://www.instagram.com/poddicrer" target="_blank" class="instagram-link">
+            Instagram: @poddicrer
+            </a>
+         </div>
+      </footer>
+   </body>
+</html>
