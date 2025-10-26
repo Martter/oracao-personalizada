@@ -6,7 +6,7 @@
 
 ## 🌐 Acesse a Aplicação Final
 **Domínio Principal:** [https://oracaosalva.me](https://oracaosalva.me)
-**Frontend:** [Link para seu repositório GitHub Pages]
+**Frontend:** [https://github.com/Martter/oracao-personalizada/](https://github.com/Martter/oracao-personalizada/)
 
 ---
 
