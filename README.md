@@ -58,8 +58,8 @@ Este projeto foi desenvolvido para ser facilmente replicável.
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/martter/](https://github.com/martter/)[NOME_DO_REPOSITORIO]
-    cd [NOME_DO_REPOSITORIO]
+    git clone [https://github.com/martter/](https://github.com/martter/oracao-personalizada)
+    cd oracao-personalizada
     ```
 2.  **Configurar o Backend (Python Functions):**
     ```bash
