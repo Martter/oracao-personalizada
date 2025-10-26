@@ -1,4 +1,4 @@
-# ✝️ ORAÇÃO SALVA: Geração de Súplicas Católicas Personalizadas por IA
+# ✝️ ORAÇÃO SALVA: Geração de Orações Católicas Personalizadas por IA
 
 [![Status](https://img.shields.io/badge/Status-Online%20%7C%20Serverless-28A745)](https://oracaosalva.me)
 [![Tecnologia](https://img.shields.io/badge/Tecnologia-Python%20%7C%20Gemini%20API-38761D)]()
